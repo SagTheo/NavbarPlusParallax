@@ -4,13 +4,10 @@ import Home from './screen/Home'
 import About from './screen/About'
 import Services from './screen/Services'
 import Contact from './screen/Contact'
-import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <Navbar />
-
       <div className={styles.App}>
         <Routes>
           <Route path='/' element={<Home />} />

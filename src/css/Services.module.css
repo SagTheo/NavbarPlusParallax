@@ -5,4 +5,24 @@
     background-repeat: no-repeat;
     /* 70px is the height of the navbar, to get it, see Navbar.js */
     height: calc(100vh - 70px); 
+    background-attachment: fixed;
+}
+
+.content {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.content p {
+    width: 50%;
+    line-height: 2rem;
+    margin: auto;
+}
+
+.content img {
+    margin: auto;
+    width: 40%;
+    height: auto;
 }

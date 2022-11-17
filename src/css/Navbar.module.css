@@ -11,13 +11,18 @@
 .navbarContainer {
     display: flex;
     background-color: rgb(159, 159, 159);
+    position: sticky;
+}
+
+.bgAttach {
+    position: fixed;
+    width: 100vw;
 }
 
 .navbar {
     margin: auto;
     display: flex;
     justify-content: center;
-    color: white;
     font-size: 2rem;
     padding-block: 1rem;
 }

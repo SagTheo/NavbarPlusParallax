@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <Navbar bgAttach={false} />
+      <div>About</div>
+    </>
   )
 }
 
