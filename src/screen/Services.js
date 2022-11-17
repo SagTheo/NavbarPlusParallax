@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from '../css/Services.module.css'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+      <div className={styles.header}></div>
+    </>
   )
 }
 

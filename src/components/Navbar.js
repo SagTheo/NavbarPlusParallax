@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../css/Navbar.module.css'
 
 const Navbar = () => {
     const [displayNavbar, setDisplayNavbar] = useState(false)
+
+    // To get height of navbar
+    const navbar = useRef()
+
+    // To get height of navbar
+    const showHeight = () => {
+        console.log(navbar.current.offsetHeight)
+    }
     
     return (
-        <div className={styles.navbarContainer}>
+        // To get height of navbar
+        <div className={styles.navbarContainer} ref={navbar} onClick={showHeight}>
             {
             displayNavbar ?
                 (
