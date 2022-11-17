@@ -3,15 +3,11 @@ import styles from '../css/Services.module.css'
 import Navbar from '../components/Navbar'
 
 const Services = () => {
-  const handleScroll = () => {
-    
-  }
-
   return (
     <>
       <Navbar bgAttach={true} />
 
-      <div className={styles.header} onScroll={handleScroll}></div>
+      <div className={styles.header}></div>
 
       <div className={styles.content}>
         <p>
